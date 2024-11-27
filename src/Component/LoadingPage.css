@@ -1,0 +1,17 @@
+
+.loading-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .loading-page h1 {
+    font-size: 3rem;
+  }
+  
+  .loading-page p {
+    font-size: 1.5rem;
+  }

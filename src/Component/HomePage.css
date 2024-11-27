@@ -1,0 +1,53 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(public/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  .letter-animation {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(5, 5, 5);
+  }
+  
+  .letter-animation span {
+    animation: bounce 1s ;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-15px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .home-page button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-page button:hover {
+    background-color: #0056b3;
+  }
+  
